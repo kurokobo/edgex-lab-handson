@@ -272,11 +272,11 @@ services:
       MessageBus_SubscribeHost_Host: edgex-core-data
       Writable_Pipeline_Functions_MQTTSend_Addressable_Address: 192.168.0.100
       Writable_Pipeline_Functions_MQTTSend_Addressable_Port: 1883
-      Writable_Pipeline_Functions_MQTTSend_Addressable_Protocol: 
+      Writable_Pipeline_Functions_MQTTSend_Addressable_Protocol: tcp
       # Writable_Pipeline_Functions_MQTTSend_Addressable_Publisher: 
       # Writable_Pipeline_Functions_MQTTSend_Addressable_User: 
       # Writable_Pipeline_Functions_MQTTSend_Addressable_Password: 
-      # Writable_Pipeline_Functions_MQTTSend_Addressable_Topic: 
+      Writable_Pipeline_Functions_MQTTSend_Addressable_Topic: edgex-handson-topic
       # Writable_Pipeline_Functions_MQTTSend_Parameters_Qos: 
       # Writable_Pipeline_Functions_MQTTSend_Parameters_Key: 
       # Writable_Pipeline_Functions_MQTTSend_Parameters_Cert: 
